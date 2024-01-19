@@ -8,6 +8,7 @@
   --white: #fff;
   --greenishBg: #1a1e1f;
   --greyBg: #2b2b2b;
+  --darkBg: #161616;
 }
 /* container */
 .container {
@@ -109,3 +110,12 @@ nav {
   color: #aaaaaa;
 }
 /* article */
+
+/* courses */
+.courses-container {
+  background-color: var(--darkBg);
+  color: var(--white);
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  padding-top: 40px;
+}
+/* courses */
