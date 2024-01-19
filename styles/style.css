@@ -9,6 +9,7 @@
   --greenishBg: #1a1e1f;
   --greyBg: #2b2b2b;
   --darkBg: #161616;
+  --cyan: #87a3ff;
 }
 /* container */
 .container {
@@ -100,7 +101,7 @@ nav {
   padding-bottom: 50px;
 }
 .article-learn_more {
-  color: #87a3ff;
+  color: var(--cyan);
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -118,17 +119,40 @@ nav {
   font-family: "BPG Nino Mtavruli", sans-serif;
   padding-top: 40px;
 }
-#course-container{
+#course-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 25px;
 }
-.course-card{
+.course-card {
   border: 1px solid var(--greyBg);
   display: flex;
   flex-direction: column;
   gap: 40px;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.course-title {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.course-register {
+  font-size: 14px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.course-details {
+  font-size: 16px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: var(--cyan);
+  padding-bottom: 20px;
+  padding-top: 50px;
+  cursor: pointer;
+}
+.course-main_title {
+  padding-left: 5px;
+  padding-bottom: 45px;
 }
 /* courses */

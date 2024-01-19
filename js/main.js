@@ -16,9 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
     courseCard.classList.add("course-card");
 
     const titleElement = document.createElement("h2");
+    titleElement.classList.add("course-title");
     titleElement.textContent = course.title;
 
     const registerElement = document.createElement("p");
+    registerElement.classList.add("course-register");
     registerElement.textContent = course.register;
 
     const detailsElement = document.createElement("p");
