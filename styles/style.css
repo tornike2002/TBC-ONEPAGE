@@ -7,6 +7,7 @@
 :root {
   --white: #fff;
   --greenishBg: #1a1e1f;
+  --greyBg: #2b2b2b;
 }
 /* container */
 .container {
@@ -89,3 +90,12 @@ nav {
   padding-bottom: 150px;
 }
 /* banner  */
+/* article*/
+.tbc-article {
+  background-color: var(--greyBg);
+  color: var(--white);
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-size: 28px;
+  line-height: 1.6em;
+}
+/* article */
