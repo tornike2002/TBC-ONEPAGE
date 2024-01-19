@@ -12,7 +12,6 @@
 .container {
   max-width: 965px;
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
@@ -42,6 +41,7 @@ nav {
   display: flex;
   gap: 20px;
   align-items: center;
+  list-style: none;
 }
 .nav-links li a {
   color: var(--white);
@@ -65,3 +65,13 @@ nav {
   color: #0d94e0 !important;
 }
 /* navbar */
+
+/* banner  */
+.banner-background {
+  background: url(../assets/banner/banner.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+/* banner  */
