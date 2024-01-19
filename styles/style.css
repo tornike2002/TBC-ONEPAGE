@@ -21,10 +21,12 @@
 /* navbar */
 nav {
   background-color: var(--greenishBg);
+  font-family: "BPG Nino Mtavruli", sans-serif;
 }
 .navbar-logo_wrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  gap: 7px;
 }
 .navbar-logo {
   width: 45px;
@@ -32,6 +34,9 @@ nav {
 }
 .navbar-academy {
   color: var(--white);
+  font-size: 20px;
+  padding-bottom: 3px;
+  letter-spacing: 3px;
 }
 .nav-links {
   display: flex;
@@ -42,7 +47,6 @@ nav {
   color: var(--white);
   line-height: 26px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .navbar-wrapper {
   width: 100%;
@@ -53,7 +57,11 @@ nav {
   padding-bottom: 35px;
 }
 .navbar-x {
-  font-size: medium;
+  font-size: 18px;
   color: var(--white);
+  padding-bottom: 4px;
+}
+.navlink-active {
+  color: #0d94e0 !important;
 }
 /* navbar */
