@@ -7,12 +7,11 @@
 :root {
   --white: #fff;
   --greenishBg: #1a1e1f;
+  --greyBg: #2b2b2b;
 }
 /* container */
 .container {
   max-width: 965px;
-  display: flex;
-  align-items: center;
   margin: 0 auto;
 }
 /* container */
@@ -89,3 +88,24 @@ nav {
   padding-bottom: 150px;
 }
 /* banner  */
+/* article*/
+.tbc-article {
+  background-color: var(--greyBg);
+  color: var(--white);
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-size: 28px;
+  line-height: 1.6em;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.article-learn_more {
+  color: #87a3ff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 500ms ease;
+}
+.article-learn_more:hover {
+  color: #aaaaaa;
+}
+/* article */
