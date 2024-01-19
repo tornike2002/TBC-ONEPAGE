@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+:root {
+  --white: #fff;
+  --greenishBg: #1a1e1f;
+}
+/* container */
+.container {
+  max-width: 965px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+/* container */
+
+/* navbar */
+nav {
+  background-color: var(--greenishBg);
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.navbar-logo_wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+}
+.navbar-logo {
+  width: 45px;
+  height: 40px;
+}
+.navbar-academy {
+  color: var(--white);
+  font-size: 20px;
+  padding-bottom: 3px;
+  letter-spacing: 3px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-links li a {
+  color: var(--white);
+  line-height: 26px;
+  font-size: 16px;
+}
+.navbar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar-x {
+  font-size: 18px;
+  color: var(--white);
+  padding-bottom: 4px;
+}
+.navlink-active {
+  color: #0d94e0 !important;
+}
+/* navbar */
