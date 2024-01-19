@@ -68,10 +68,24 @@ nav {
 
 /* banner  */
 .banner-background {
-  background: url(../assets/banner/banner.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
+  background: url(../assets/banner/banner.webp) 50% 50% / cover no-repeat;
+  font: bold 16px Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-title {
+  color: var(--white);
+  font-size: 48px;
+}
+.banner-paragraph {
+  color: var(--white);
+  font-size: 34px;
+}
+.banner-content_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 /* banner  */
