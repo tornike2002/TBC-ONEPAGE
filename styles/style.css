@@ -12,7 +12,6 @@
 .container {
   max-width: 965px;
   display: flex;
-  justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
@@ -42,6 +41,7 @@ nav {
   display: flex;
   gap: 20px;
   align-items: center;
+  list-style: none;
 }
 .nav-links li a {
   color: var(--white);
@@ -65,3 +65,27 @@ nav {
   color: #0d94e0 !important;
 }
 /* navbar */
+
+/* banner  */
+.banner-background {
+  background: url(../assets/banner/banner.webp) 50% 50% / cover no-repeat;
+  font: bold 16px Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-title {
+  color: var(--white);
+  font-size: 48px;
+}
+.banner-paragraph {
+  color: var(--white);
+  font-size: 34px;
+}
+.banner-content_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+/* banner  */
