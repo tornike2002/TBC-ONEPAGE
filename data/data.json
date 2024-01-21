@@ -1,63 +1,63 @@
 [
   {
     "id": 1,
-    "img": "/assets/courses/ios.webp",
+    "img": "../assets/courses/ios.webp",
     "title": "iOS Development",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 2,
-    "img": "/assets/courses/react.webp",
+    "img": "../assets/courses/react.webp",
     "title": "React",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 3,
-    "img": "/assets/courses/intro-py.webp",
+    "img": "../assets/courses/intro-py.webp",
     "title": "Intro to Python",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 4,
-    "img": "/assets/courses/advanced-py.webp",
+    "img": "../assets/courses/advanced-py.webp",
     "title": "Advanced Python",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 5,
-    "img": "/assets/courses/cyber.webp",
+    "img": "../assets/courses/cyber.webp",
     "title": "Advanced Cybersecurity Course",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 6,
-    "img": "/assets/courses/tot.webp",
+    "img": "../assets/courses/tot.webp",
     "title": "ToT - Training of Trainers",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 7,
-    "img": "/assets/courses/blogchain.webp",
+    "img": "../assets/courses/blogchain.webp",
     "title": "Blockchain",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 8,
-    "img": "/assets/courses/devops.webp",
+    "img": "../assets/courses/devops.webp",
     "title": "DevOps",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
   },
   {
     "id": 9,
-    "img": "/assets/courses/information-security.webp",
+    "img": "../assets/courses/information-security.webp",
     "title": "Information Security Governance",
     "register": "რეგისტრაცია დასრულებულია",
     "details": "კურსის დეტალები"
