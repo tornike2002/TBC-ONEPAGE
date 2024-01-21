@@ -17,7 +17,15 @@
   margin: 0 auto;
 }
 /* container */
-
+/* reusable class */
+.line-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--greyBg);
+  padding-bottom: 20px;
+}
+/* reusable class */
 /* navbar */
 nav {
   background-color: var(--greenishBg);
@@ -238,3 +246,27 @@ nav {
   padding-top: 40px;
 }
 /* carousel */
+
+/* questions */
+.questions_container {
+  background-color: var(--darkBg);
+  color: var(--white);
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.questions-title_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 70px;
+  letter-spacing: 2px;
+}
+.questions-title_wrapper a {
+  color: var(--cyan);
+}
+.questions-helper_div{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* questions */
