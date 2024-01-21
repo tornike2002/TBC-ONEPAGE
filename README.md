@@ -1,5 +1,7 @@
 გამარჯობა
-live: https://delicate-pothos-10d1de.netlify.app
+
+live: https://delicate-pothos-10d1de.netlify.app ✔
+
 პროექტის სტრუქტურა :
 
 პროექტი ძირითადად შედგება 3-4 საქაღალდისგან, რომლებიცაა data, assets, js, style, თითოეულ საქაღალდეში დაყოფილია სახელისამებრ
