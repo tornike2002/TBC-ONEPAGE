@@ -33,6 +33,20 @@ nav {
   background-color: var(--greenishBg);
   font-family: "BPG Nino Mtavruli", sans-serif;
 }
+#navbar-scroll {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.8; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#navbar-scroll.sticky { 
+  opacity: 0.8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 .navbar-logo_wrapper {
   display: flex;
   align-items: flex-end;
@@ -380,7 +394,7 @@ nav {
   background-color: #ccc;
   color: var(--greyBg);
 }
-.footer-icons_content{
+.footer-icons_content {
   display: flex;
   flex-direction: column;
   gap: 30px;

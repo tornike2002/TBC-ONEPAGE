@@ -113,3 +113,12 @@ carousel.addEventListener("touchend", dragStop);
 function toggleContent(element) {
   element.classList.toggle('active');
 }
+// navbar
+document.addEventListener("DOMContentLoaded", function() {
+  var navbar = document.querySelector("#navbar-scroll");
+  
+  window.addEventListener("scroll", function() {
+    navbar.classList.toggle('sticky', window.scrollY > 0);
+  });
+});
+
