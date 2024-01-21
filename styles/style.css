@@ -17,7 +17,17 @@
   margin: 0 auto;
 }
 /* container */
-
+/* reusable class */
+.line-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--greyBg);
+  padding-bottom: 20px;
+  flex-direction: column;
+  cursor: pointer;
+}
+/* reusable class */
 /* navbar */
 nav {
   background-color: var(--greenishBg);
@@ -238,3 +248,81 @@ nav {
   padding-top: 40px;
 }
 /* carousel */
+
+/* questions */
+.questions_container {
+  background-color: var(--darkBg);
+  color: var(--white);
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.questions-title_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 70px;
+  letter-spacing: 2px;
+}
+
+.questions-title_wrapper a {
+  color: var(--cyan);
+  transition: all 500ms ease;
+}
+.questions-helper_div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.content {
+  display: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.active .content {
+  display: block;
+}
+
+.fa-chevron-down {
+  transition: transform 0.3s;
+}
+
+.active .fa-chevron-down {
+  transform: rotate(180deg);
+}
+.question-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.question-wrapper h1 {
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  font-size: 19px;
+  font-weight: lighter;
+}
+.questions-content_wrapper {
+  padding-top: 40px;
+  line-height: 2;
+  font-size: 16px;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  letter-spacing: 1px;
+}
+.questions-content_repeat {
+  line-height: 2;
+  font-size: 16px;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  letter-spacing: 1px;
+}
+.content h2 {
+  line-height: 2;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.content-bold {
+  font-weight: bolder;
+}
+.questions-title_wrapper a:hover {
+  color: #ccc;
+}
+/* questions */
