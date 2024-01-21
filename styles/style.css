@@ -24,6 +24,8 @@
   align-items: center;
   border-bottom: 1px solid var(--greyBg);
   padding-bottom: 20px;
+  flex-direction: column;
+  cursor: pointer;
 }
 /* reusable class */
 /* navbar */
@@ -268,5 +270,49 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+.content {
+  display: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.active .content {
+  display: block;
+}
+
+.fa-chevron-down {
+  transition: transform 0.3s;
+}
+
+.active .fa-chevron-down {
+  transform: rotate(180deg);
+}
+.question-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; 
+}
+.questions-content_wrapper{
+  padding-top: 40px;
+  line-height: 2;
+  font-size: 16px;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  letter-spacing: 1px;
+}
+.questions-content_repeat{
+  line-height: 2;
+  font-size: 16px;
+  font-family: "BPG Nino Mtavruli", sans-serif;
+  letter-spacing: 1px;
+}
+.content h2 {
+  line-height: 2;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.content-bold{
+  font-weight: bolder;
 }
 /* questions */
