@@ -325,4 +325,13 @@ nav {
 .questions-title_wrapper a:hover {
   color: #ccc;
 }
+.footer-container {
+  background-color: var(--greenishBg);
+  font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* questions */
